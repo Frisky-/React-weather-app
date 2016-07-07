@@ -17,7 +17,7 @@ module.exports = {
     loaders: [
       {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
       {test: /\.css$/,loaders: ["style", "css"]},
-      {test: /\.scss$/,loaders: ["style", "css", "scss"]}
+      {test: /\.scss$/,loaders: ["style", "css", "sass"]}
     ]
   },
   plugins: [HtmlWebpackPluginConfig]

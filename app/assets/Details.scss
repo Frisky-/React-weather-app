@@ -1,0 +1,14 @@
+
+.details {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  height: 100%;
+  img{
+    max-width:250px;
+  }
+  p{
+    font-size:20px;
+  }
+}

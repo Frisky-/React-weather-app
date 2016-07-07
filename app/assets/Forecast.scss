@@ -1,0 +1,18 @@
+
+.container {
+  height: 80%;
+  .items{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 84%;
+    align-items: center;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+  }
+}

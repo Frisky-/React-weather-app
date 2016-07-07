@@ -1,5 +1,6 @@
 var React = require("react");
 var CityPromptContainer = require("./CityPromptContainer");
+
 var styles = {
   container:{
     width:"100%",
@@ -11,6 +12,9 @@ var styles = {
     backgroundColor: "#dc5a32",
     padding:"10px",
     color:"white"
+  },
+  link:{
+    margin:"0",
   }
 }
 var MainContainer = React.createClass({
@@ -18,7 +22,7 @@ var MainContainer = React.createClass({
     return (
       <div style={styles.container}>
         <div style={styles.header}>
-          <h2 style={{margin: 0}}>Main.js Header!</h2>
+          <h2 style={styles.link}>Main.js Header!</h2>
           <CityPromptContainer direction="row"/>
         </div>
         {this.props.children}

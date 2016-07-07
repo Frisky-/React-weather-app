@@ -1,8 +1,8 @@
 // $primary-color: $my-brand-color;
 
-$primary-color: $my-brand-color;
-@import 'loaders.css/src/animations/line-scale.scss'
- 
+$primary-color: black;
+@import "../../node_modules/loaders.css/src/animations/pacman.scss";
+
 .loader-hidden {
   display: none;
 }

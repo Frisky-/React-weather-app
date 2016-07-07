@@ -1,0 +1,10 @@
+.forecastItem{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  .icon{
+    max-width: 130px;
+  }
+}
